@@ -35,4 +35,11 @@ public class Money {
     public Money plus(Money money) {
         return Money.of(amount.add(money.amount));
     }
+
+    @Override
+    public String toString() {
+        return "Money{" +
+                "amount=" + amount +
+                '}';
+    }
 }

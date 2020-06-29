@@ -2,20 +2,8 @@ package jugistanbul.pattern.proxy;
 
 public class DebitCard extends Card {
 
-    private Account account;
-
     public DebitCard(Account account, Bank bank) {
-        super(CardNumber.generate(), bank);
-        this.account = account;
+        super(CardNumber.generate(), account.getFullname(), bank);
     }
 
-    @Override
-    public void withdraw(Money money) {
-        getBank().withdraw(money);
-    }
-
-    @Override
-    public void deposit(Money money) {
-        getBank().deposit(money);
-    }
 }

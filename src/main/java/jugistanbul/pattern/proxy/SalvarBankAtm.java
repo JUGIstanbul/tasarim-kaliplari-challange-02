@@ -17,12 +17,12 @@ public class SalvarBankAtm implements MoneyOperation {
 
     @Override
     public void withdraw(Money amount, Account account) {
-
+        this.salvarBank.withdraw(amount, account);
     }
 
     @Override
     public void deposit(Money amount, Account account) {
-
+        this.salvarBank.deposit(amount, account);
     }
 
     public boolean insertCard(Card card, String password) {
@@ -32,6 +32,6 @@ public class SalvarBankAtm implements MoneyOperation {
 
     @Override
     public Money displayMyMoney(Account account) {
-        salvarBank.displayMyMoney(account);
+        return salvarBank.displayMyMoney(account);
     }
 }

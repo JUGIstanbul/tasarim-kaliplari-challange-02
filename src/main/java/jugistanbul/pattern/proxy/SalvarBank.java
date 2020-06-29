@@ -16,15 +16,13 @@ public class SalvarBank implements Bank {
 
     @Override
     public void withdraw(Money amount, Account account) {
-        Money money = moneys.get(account);
-        moneys.computeIfAbsent(account, m->Money.of(BigDecimal.ZERO));
+        Money money = moneys.computeIfAbsent(account, m->Money.of(BigDecimal.ZERO));
         moneys.put(account, money.minus(amount));
     }
 
     @Override
     public void deposit(Money amount, Account account) {
-        Money money = moneys.get(account);
-        moneys.computeIfAbsent(account, m->Money.of(BigDecimal.ZERO));
+        Money money = moneys.computeIfAbsent(account, m->Money.of(BigDecimal.ZERO));
         moneys.put(account, money.plus(amount));
     }
 

@@ -16,7 +16,7 @@ public class BankApp {
         salvarBankAtm.withdraw(Money.of(BigDecimal.valueOf(300d)), accountForTaner);
         Money money = salvarBankAtm.displayMyMoney(accountForTaner);
 
-        System.out.println("");
+        System.out.println(money);
 
     }
 }
