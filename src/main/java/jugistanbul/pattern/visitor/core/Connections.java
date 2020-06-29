@@ -1,6 +1,6 @@
 package jugistanbul.pattern.visitor.core;
 
-import jugistanbul.pattern.visitor.export.Visitor;
+import jugistanbul.pattern.visitor.Visitor;
 
 import java.util.HashSet;
 import java.util.Set;

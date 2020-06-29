@@ -1,6 +1,6 @@
 package jugistanbul.pattern.visitor.core;
 
-import jugistanbul.pattern.visitor.export.Visitor;
+import jugistanbul.pattern.visitor.Visitor;
 
 public class ClassDiagram extends Diagram {
 

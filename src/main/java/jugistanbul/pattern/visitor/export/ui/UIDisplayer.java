@@ -3,7 +3,7 @@ package jugistanbul.pattern.visitor.export.ui;
 import jugistanbul.pattern.visitor.core.Connection;
 import jugistanbul.pattern.visitor.core.Diagram;
 import jugistanbul.pattern.visitor.core.Property;
-import jugistanbul.pattern.visitor.export.Visitor;
+import jugistanbul.pattern.visitor.Visitor;
 
 import java.util.*;
 

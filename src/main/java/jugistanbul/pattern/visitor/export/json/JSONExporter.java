@@ -6,7 +6,7 @@ import com.fasterxml.jackson.databind.json.JsonMapper;
 import jugistanbul.pattern.visitor.core.Connection;
 import jugistanbul.pattern.visitor.core.Diagram;
 import jugistanbul.pattern.visitor.core.Property;
-import jugistanbul.pattern.visitor.export.Visitor;
+import jugistanbul.pattern.visitor.Visitor;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -6,7 +6,7 @@ import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 import jugistanbul.pattern.visitor.core.Connection;
 import jugistanbul.pattern.visitor.core.Diagram;
 import jugistanbul.pattern.visitor.core.Property;
-import jugistanbul.pattern.visitor.export.Visitor;
+import jugistanbul.pattern.visitor.Visitor;
 
 import java.util.HashMap;
 import java.util.Map;

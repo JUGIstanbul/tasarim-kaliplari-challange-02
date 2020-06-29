@@ -1,4 +1,4 @@
-package jugistanbul.pattern.visitor.export;
+package jugistanbul.pattern.visitor;
 
 import jugistanbul.pattern.visitor.core.*;
 

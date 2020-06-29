@@ -1,6 +1,6 @@
 package jugistanbul.pattern.visitor.core;
 
-import jugistanbul.pattern.visitor.export.Visitable;
+import jugistanbul.pattern.visitor.Visitable;
 
 public abstract class Diagram implements Visitable {
 
